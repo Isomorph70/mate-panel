@@ -489,6 +489,7 @@ button_widget_get_preferred_height (GtkWidget *widget,
 	*minimal_height = *natural_height = size;
 }
 
+// Why is the width of image not used?
 static void
 button_widget_size_allocate (GtkWidget     *widget,
 			     GtkAllocation *allocation)
